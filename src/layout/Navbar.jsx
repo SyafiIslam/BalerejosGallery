@@ -52,8 +52,8 @@ const Navbar = () => {
           <Link to={`/`}>
             <li>Beranda</li>
           </Link>
-          <Link>
-            <li>Produk</li>
+          <Link to={`/karya-desa`}>
+            <li>Karya</li>
           </Link>
           <Link to={`/profil-desa`}>
             <li>Profil</li>
