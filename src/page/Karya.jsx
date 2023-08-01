@@ -1,7 +1,7 @@
 import React from "react";
 import WebLayout from "../layout/WebLayout";
 import { foto } from "../data/KaryaDesa";
-import jainul from "../assets/jainul.png";
+import jainul from "../images/jainul.png";
 import { RiWhatsappFill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 

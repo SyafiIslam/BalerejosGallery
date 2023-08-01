@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Icon from "../assets/logo.svg";
+import Icon from "../images/logo.svg";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import { IconContext } from "react-icons";
 

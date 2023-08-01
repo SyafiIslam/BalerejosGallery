@@ -1,13 +1,13 @@
 import React from "react";
 import WebLayout from "../layout/WebLayout";
-import jumbo1 from "../assets/jumbo1.png";
-import jumbo2 from "../assets/jumbo2.png";
-import jumbo3 from "../assets/jumbo3.png";
-import sapi from "../assets/gaduh-sapi.png";
-import logo from "../assets/logo-desa.png";
-import jainul from "../assets/jainul.png";
-import doa from "../assets/doa.jpg";
-import sedekah from "../assets/sedekah_bumi.jpg";
+import jumbo1 from "../images/jumbo1.png";
+import jumbo2 from "../images/jumbo2.png";
+import jumbo3 from "../images/jumbo3.png";
+import sapi from "../images/gaduh-sapi.png";
+import logo from "../images/logo-desa.png";
+import jainul from "../images/jainul.png";
+import doa from "../images/doa.jpg";
+import sedekah from "../images/sedekah_bumi.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {

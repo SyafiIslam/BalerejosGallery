@@ -15,7 +15,7 @@ export default {
         },
 
         backgroundImage: {
-          "jumbo": "url('/src/assets/images/jumbotron.png')"
+          "jumbo": "url('/src/images/images/jumbotron.png')"
         }
     },
 },

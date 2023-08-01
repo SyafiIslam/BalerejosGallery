@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import WebLayout from "../layout/WebLayout";
-import Logo from "../assets/logo-desa.png";
+import Logo from "../images/logo-desa.png";
 import { Card } from "../component/Card";
 import { ProfileDesa } from "../data/ProfileDesa";
 

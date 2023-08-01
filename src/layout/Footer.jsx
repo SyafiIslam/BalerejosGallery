@@ -2,7 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { AiFillInstagram, AiFillMail } from "react-icons/ai";
 import { RiFacebookBoxFill, RiWhatsappFill } from "react-icons/ri";
-import Cloud from "../assets/idcloudhost.svg"
+import Cloud from "../images/idcloudhost.svg"
 
 const Footer = () => {
   return (
