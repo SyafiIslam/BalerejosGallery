@@ -7,6 +7,8 @@ import sapi from "../images/gaduh-sapi.png";
 import logo from "../images/logo-desa.png";
 import jainul from "../images/jainul.png";
 import doa from "../images/doa.jpg";
+import video from "../video/potensi.mp4";
+import video2 from "../video/potensi2.mp4";
 import sedekah from "../images/sedekah_bumi.jpg";
 import { Link } from "react-router-dom";
 
@@ -112,25 +114,16 @@ const Home = () => {
       </div>
 
       <div className="bg-primary text-white px-10 xl:px-16 2xl:px-20 py-8 mt-4 lg:mt-9">
-        <p className="h2 lg:h3 font-bold text-center">3 Pantai Desa Balerejo</p>
+        <p className="h2 lg:h3 font-bold text-center">Potensi Wisata</p>
 
-        <div className="flex flex-col w-fit xl:flex-row-reverse items-center gap-8 xl:justify-evenly xl:mt-6">
-          <img
-            className="w-3/4 md:w-2/5 lg:w-1/4 rounded-xl"
-            src={jainul}
-            alt=""
-          />
-
-          <div className="flex flex-col basis-1/2">
-            <p className="mt-3 h5 lg:text-[18px] 2xl:text-[22px] xl:text-end">
-              Pada Desa Balerejo terdepat 3 pantai yang dapat dikunjungi, yaitu
-              Pantai Jabon sekargadung, Pantai Jabalan dan Pantai Gledakan
-            </p>
-
-            <button className="h5 lg:text-[18px] self-start xl:self-end mt-6 bg-white font-semibold rounded-lg text-primary px-3 py-1 hover:bg-slate-300 duration-300">
-              Lihat Karya
-            </button>
-          </div>
+        <div className="flex flex-col md:flex-row justify-evenly items-center">
+          <video controls className="mt-4 md:w-[300px]">
+            <source src={video} type="video/mp4" />
+          </video>
+          
+          <video controls className="mt-4 md:w-[300px]">
+            <source src={video2} type="video/mp4" />
+          </video>
         </div>
       </div>
 
